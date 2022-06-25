@@ -1,0 +1,66 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "name": "async-landing",
+  "description": "Web Page Javascript Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "array-union": "^1.0.2",
+    "array-uniq": "^1.0.3",
+    "brace-expansion": "^1.1.11",
+    "balanced-match": "^1.0.2",
+    "async": "^2.6.4",
+    "commander": "^2.20.3",
+    "commondir": "^1.0.1",
+    "concat-map": "^0.0.1",
+    "email-addresses": "^3.1.0",
+    "filename-reserved-regex": "^2.0.0",
+    "escape-string-regexp": "^1.0.5",
+    "find-cache-dir": "^3.3.2",
+    "filenamify": "^4.3.0",
+    "fs-extra": "^8.1.0",
+    "find-up": "^4.1.0",
+    "globby": "^6.1.0",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "graceful-fs": "^4.2.10",
+    "jsonfile": "^4.0.0",
+    "inflight": "^1.0.6",
+    "make-dir": "^3.1.0",
+    "locate-path": "^5.0.0",
+    "lodash": "^4.17.21",
+    "inherits": "^2.0.4",
+    "object-assign": "^4.1.1",
+    "p-limit": "^2.3.0",
+    "minimatch": "^3.1.2",
+    "once": "^1.4.0",
+    "p-locate": "^4.1.0",
+    "path-exists": "^4.0.0",
+    "p-try": "^2.2.0",
+    "pify": "^2.3.0",
+    "path-is-absolute": "^1.0.1",
+    "pinkie": "^2.0.4",
+    "pkg-dir": "^4.2.0",
+    "pinkie-promise": "^2.0.1",
+    "strip-outer": "^1.0.1",
+    "trim-repeated": "^1.0.0",
+    "semver": "^6.3.0",
+    "universalify": "^0.1.2",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selectinsurance/async-landing.git"
+  },
+  "author": "Yeimar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selectinsurance/async-landing/issues"
+  },
+  "homepage": "https://github.com/selectinsurance/async-landing#readme"
+}
